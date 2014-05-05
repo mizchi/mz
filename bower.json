@@ -1,0 +1,24 @@
+{
+  "name": "mz",
+  "main": "mz.js",
+  "version": "0.0.0",
+  "authors": [
+    "Koutarou Chikuba <miz404@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "warden": "~0.0.3",
+    "momic": "~0.3.3"
+  },
+  "dependencies": {
+    "localforage": "~0.7.0",
+    "es6-promise": "~1.0.0"
+  }
+}

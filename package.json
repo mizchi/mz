@@ -1,0 +1,17 @@
+{
+  "name": "mz",
+  "version": "0.0.0",
+  "description": "",
+  "main": "mz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffeeify": "^0.6.0"
+  },
+  "devDependencies": {
+    "coffeeify": "^0.6.0"
+  }
+}
