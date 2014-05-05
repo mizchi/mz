@@ -19,6 +19,12 @@
 - mz.Model => Momic.Model
 - mz.Application 
 
+## How to use
+
+```
+bower install mizchi/mz
+```
+
 ### Examples
 
 ```coffeescript
