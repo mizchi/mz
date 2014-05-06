@@ -18,4 +18,4 @@ class mz.Application
         window.removeEventListener 'warden:routed', init
         done()
       window.addEventListener 'warden:routed', init
-      mz.router = new mz.Router(opts.router)
+      mz.router = new mz.Router(routes: options?.routes)

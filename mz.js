@@ -1408,7 +1408,9 @@ mz.Application = (function() {
             return done();
           };
           window.addEventListener('warden:routed', init);
-          return mz.router = new mz.Router(opts.router);
+          return mz.router = new mz.Router({
+            routes: options != null ? options.routes : void 0
+          });
         });
       };
     })(this));
