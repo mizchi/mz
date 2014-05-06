@@ -15,7 +15,7 @@
   ],
   "devDependencies": {
     "warden": "~0.0.3",
-    "libretto": "mizchi/libretto",
+    "libretto": "0.0.2",
     "momic": "~0.3.3"
   },
   "dependencies": {

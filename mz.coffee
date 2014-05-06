@@ -1,5 +1,5 @@
-require './bower_components/momic/momic'
 require './bower_components/libretto/libretto'
+require './bower_components/momic/momic'
 require './bower_components/warden/src/warden'
 
 window.mz = {}

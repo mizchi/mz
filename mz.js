@@ -75,15 +75,14 @@
       }
     };
 
-    function Libretto(context) {
+    function Libretto() {
       this.dispose = __bind(this.dispose, this);
       this.cancel = __bind(this.cancel, this);
       this.then = __bind(this.then, this);
       this.end = __bind(this.end, this);
       this.start = __bind(this.start, this);
-      if (context == null) {
-        context = {};
-      }
+      var context;
+      context = {};
       this._promise = new Promise((function(_this) {
         return function(done) {
           var action;
@@ -124,7 +123,7 @@
   })();
 
   if (typeof window !== "undefined" && window !== null) {
-    window.Libretto;
+    window.Libretto = Libretto;
   } else if (typeof module !== "undefined" && module !== null) {
     module.exports = Libretto;
   }
@@ -1376,9 +1375,9 @@ if ('function' === typeof window.define) {
 
 
 },{"./grapnel":3}],5:[function(require,module,exports){
-require('./bower_components/momic/momic');
-
 require('./bower_components/libretto/libretto');
+
+require('./bower_components/momic/momic');
 
 require('./bower_components/warden/src/warden');
 
